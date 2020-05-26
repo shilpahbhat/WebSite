@@ -1,24 +1,68 @@
-html{
-  
-	font-family: 'Quicksand', monospace;
+html {
+    font-family: 'Quicksand', monospace;
+    letter-spacing: 3px;
+    line-height: 1.5em;
 }
-.heading{
-    background-color: gainsboro;
+
+
+img{
+    max-width:100%;
+    /* height:auto; */
+}
+.heading {
+    background-color: whitesmoke;
     color: darkslategray;
-    margin:-15px;
-    padding:0.5em;
-	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: -1px; 
+    padding: 0 0 0 2.5em ;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.23);
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.showcase{
-	text-align:center;
+.banner {
+    /* float: left; */
+     /* page heading to be responsive */
+    /* width: 80vw; */
+    
 }
-.right-text{
-    text-align:right;
+nav {
+   
+    /* float:right; */
+    /* display: flex; */
+    padding: 0 4.5em 0 0em ;
 }
-.nav{
-    text-align:right;
+a{
+    text-decoration: none;
+    color: darkslategray;
 }
-footer{
-    text-align:center;
-    opacity:0.7;
+a:hover{
+    color:tomato;
+}
+.showcase {
+    /* padding: 4.5em 0 0 0; */
+    text-align: center;
+    width:50%;
+    margin:auto;
+}
+
+.right-text {
+    text-align: right;
+}
+
+
+
+footer {
+    text-align: center;
+    opacity: 0.7;
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    padding: 0.5em;
+    background-color: snow;
+    color: darkslategray;
+    width: 100%;
 }
